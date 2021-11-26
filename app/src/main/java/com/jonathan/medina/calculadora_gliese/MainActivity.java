@@ -249,6 +249,19 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    public void onClickDiasSegundos(View miView) {
+        TextView tv = findViewById(R.id.textView);
+        if (tv.getText().toString() == "") {
+            tv.setText("");
+        } else {
+            numero1 = Double.parseDouble(tv.getText().toString());
+            resultado = numero1 * 86400;
+            listo = "no";
+            oper = "no";
+            tv.setText(resultado.toString() + "segundos");
+        }
+    }
+
 
 
     public void onClickIgual(View miView) {
