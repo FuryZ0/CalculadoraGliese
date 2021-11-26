@@ -380,8 +380,8 @@
 
     <Button
         android:id="@+id/button12"
-        android:layout_width="144dp"
-        android:layout_height="54dp"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
         android:fontFamily="sans-serif-black"
         android:onClick="onClickCm"
         android:text="Cm^2 a m^2"
@@ -397,25 +397,36 @@
 
     <Button
         android:id="@+id/button13"
-        android:layout_width="159dp"
-        android:layout_height="53dp"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#33FF9C"
+        android:fontFamily="sans-serif-black"
         android:onClick="onClickEuro"
         android:text="Euros a $"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.853"
+        app:layout_constraintHorizontal_bias="0.819"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.912" />
+        app:layout_constraintVertical_bias="0.913" />
 
     <Button
         android:id="@+id/button14"
-        android:layout_width="144dp"
-        android:layout_height="52dp"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#932020"
+        android:fontFamily="sans-serif-black"
         android:onClick="onClickInch"
-        android:text="Button"
-        tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="672dp"
-        tools:text="cm a inch" />
+        android:text="Cm a inch"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
