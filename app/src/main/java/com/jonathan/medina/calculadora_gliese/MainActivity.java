@@ -223,6 +223,20 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    public void onClickEuro(View miView) {
+        TextView tv = findViewById(R.id.textView);
+        if (tv.getText().toString() == "") {
+            tv.setText("");
+        } else {
+            numero1 = Double.parseDouble(tv.getText().toString());
+            resultado = numero1 * 24.67;
+            listo = "no";
+            oper = "no";
+            tv.setText(resultado.toString() + "$");
+        }
+    }
+
+
 
     public void onClickIgual(View miView) {
         TextView tv = (TextView) findViewById(R.id.textView);
