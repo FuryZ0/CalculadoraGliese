@@ -395,4 +395,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.925" />
 
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="155dp"
+        android:layout_height="50dp"
+        android:onClick="onClickEuro"
+        android:text="Euros a $"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.82"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.928" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
