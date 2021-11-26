@@ -223,6 +223,19 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    public void onClickInch(View miView) {
+        TextView tv = findViewById(R.id.textView);
+        if (tv.getText().toString() == "") {
+            tv.setText("");
+        } else {
+            numero1 = Double.parseDouble(tv.getText().toString());
+            resultado = numero1 * 2.54;
+            listo = "no";
+            oper = "no";
+            tv.setText(resultado.toString() + " inch");
+        }
+    }
+
     public void onClickEuro(View miView) {
         TextView tv = findViewById(R.id.textView);
         if (tv.getText().toString() == "") {

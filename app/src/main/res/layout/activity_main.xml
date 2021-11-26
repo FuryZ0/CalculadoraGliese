@@ -380,8 +380,8 @@
 
     <Button
         android:id="@+id/button12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="144dp"
+        android:layout_height="54dp"
         android:fontFamily="sans-serif-black"
         android:onClick="onClickCm"
         android:text="Cm^2 a m^2"
@@ -390,22 +390,32 @@
         app:backgroundTint="#554141"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintHorizontal_bias="0.095"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.925" />
+        app:layout_constraintVertical_bias="0.913" />
 
     <Button
         android:id="@+id/button13"
-        android:layout_width="155dp"
-        android:layout_height="50dp"
+        android:layout_width="159dp"
+        android:layout_height="53dp"
         android:onClick="onClickEuro"
         android:text="Euros a $"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.82"
+        app:layout_constraintHorizontal_bias="0.853"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.928" />
+        app:layout_constraintVertical_bias="0.912" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="144dp"
+        android:layout_height="52dp"
+        android:onClick="onClickInch"
+        android:text="Button"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="672dp"
+        tools:text="cm a inch" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
