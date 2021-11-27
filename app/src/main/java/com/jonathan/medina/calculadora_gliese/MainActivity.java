@@ -245,7 +245,7 @@ public class MainActivity extends AppCompatActivity {
             resultado = numero1 * 24.67;
             listo = "no";
             oper = "no";
-            tv.setText(resultado.toString() + "$");
+            tv.setText(resultado.toString() + " MXN");
         }
     }
 
@@ -258,7 +258,7 @@ public class MainActivity extends AppCompatActivity {
             resultado = numero1 * 86400;
             listo = "no";
             oper = "no";
-            tv.setText(resultado.toString() + "segundos");
+            tv.setText(resultado.toString() + " segundos");
         }
     }
 
